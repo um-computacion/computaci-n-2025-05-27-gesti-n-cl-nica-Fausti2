@@ -27,4 +27,4 @@ class Medico:
 
     def __str__(self):
         especialidades_str = ", ".join(str(e) for e in self.__especialidades)
-        return f"{self.__nombre}, {self.__matricula}, [{especialidades_str}]" g
+        return f"{self.__nombre}, {self.__matricula}, [{especialidades_str}]" 
