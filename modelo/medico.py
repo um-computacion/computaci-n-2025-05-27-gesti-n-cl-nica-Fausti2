@@ -6,8 +6,7 @@ class Medico:
             raise ValueError("El nombre y la matrícula del médico son obligatorios.")
         self.__nombre = nombre
         self.__matricula = matricula
-        self.__especialidades = especialidades if especialidades else []
-
+        self.__especialidades = especialidades if especialidades else [] 
     def agregar_especialidad(self, especialidad):
         if not isinstance(especialidad, Especialidad):
             raise TypeError("Debe agregarse un objeto de tipo Especialidad.")
