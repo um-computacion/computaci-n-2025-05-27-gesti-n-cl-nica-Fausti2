@@ -4,9 +4,9 @@
 ## 👤 Información del Alumno
 
 ### 📋 Datos Personales
-- **Nombre y Apellido**: [Completar con nombre y apellido]
+- **Nombre y Apellido**: [Faustino De Lucia ]
 - **Ciclo Lectivo**: 2025
-- **Carrera**: [Completar con nombre de la carrera]
+- **Carrera**: [Ingenieria Informatica ]
 
 ## ⏰ Información Importante sobre la Entrega
 
@@ -345,4 +345,4 @@ El sistema debe incluir pruebas unitarias utilizando el módulo `unittest`, que 
 
 - ✅ Confirmar que los turnos y recetas se guardan correctamente en la historia clínica del paciente.
 
----
+--- 
