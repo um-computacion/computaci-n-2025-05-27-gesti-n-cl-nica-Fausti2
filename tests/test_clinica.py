@@ -1,3 +1,4 @@
+from typing import Self
 import unittest
 from modelo.clinica import Clinica, PacienteNoEncontradoException, MedicoNoDisponibleException, TurnoOcupadoException
 from modelo.paciente import Paciente
@@ -38,7 +39,19 @@ class TestClinica(unittest.TestCase):
         self.clinica.agregar_paciente(self.paciente)
         self.clinica.agregar_medico(self.medico)
         with self.assertRaises(MedicoNoDisponibleException):
-            self.clinica.agendar_turno("12345678", "MAT4567", "Clínica", fecha_invalida)
+            self.clinica.agendar_turno("12345678", "MAT4567", "Clínica", fecha_invalida) 
+
+
+
+
+    def test_obtener_medico_por_matricula(self):
+        self.clinica.agregar_medico(self.medico)
+        encontrado = self.clinica.obtener_medico_por_matricula("MAT4567")
+        self.assertEqual(encontrado, self.medico)
+
+def test_obtener_medico_por_matricula_no_existente(self):
+    with self.assertRaises(ValueError):
+        self.clinica.obtener_medico_por_matricula("M999")
 
 if __name__ == "__main__":
     unittest.main() 

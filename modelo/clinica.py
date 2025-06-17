@@ -78,4 +78,11 @@ class Clinica:
         return dias[fecha_hora.weekday()]
 
     def validar_especialidad_en_dia(self, medico: Medico, especialidad: str, dia: str):
-        return medico.obtener_especialidad_para_dia(dia) == especialidad
+        return medico.obtener_especialidad_para_dia(dia) == especialidad 
+    
+
+
+    def obtener_medico_por_matricula(self, matricula: str):
+        if matricula not in self.__medicos:
+            raise ValueError("Médico no encontrado.")
+        return self.__medicos[matricula] 
