@@ -1,11 +1,12 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/y_fEcNZn)
 # 🏥 Sistema de Gestión para una Clínica
 
 ## 👤 Información del Alumno
 
 ### 📋 Datos Personales
-- **Nombre y Apellido**: [Completar con nombre y apellido]
+- **Nombre y Apellido**: [Faustino De Lucia ]
 - **Ciclo Lectivo**: 2025
-- **Carrera**: [Completar con nombre de la carrera]
+- **Carrera**: [Ingenieria Informatica ]
 
 ## ⏰ Información Importante sobre la Entrega
 
@@ -344,4 +345,4 @@ El sistema debe incluir pruebas unitarias utilizando el módulo `unittest`, que 
 
 - ✅ Confirmar que los turnos y recetas se guardan correctamente en la historia clínica del paciente.
 
----
+--- 
